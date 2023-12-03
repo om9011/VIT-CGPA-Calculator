@@ -1,0 +1,74 @@
+.header {
+    top: 0;
+    left: 0;
+    padding: 1.3rem 0;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    transition: 0.5s;
+    box-shadow: #999 0px 2px 25px;
+}
+
+.header.sticky {
+    background: var(--bg-color);
+    box-shadow: 0 0.1rem 1rem var(--shadow-color);
+}
+.logo span{
+    color: black;
+}
+
+.logo {
+    font-size: 1.6rem;
+    color: var(--main-color);
+    font-weight: 600;
+    cursor: default;
+    margin-right: auto;
+    margin-left: 00;
+}
+
+#main{
+    margin-left: 50px;
+    width: 40px;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    position: relative;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-right: 3rem;
+    text-decoration: none;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+    
+}
+
+
+.navbar a:hover{
+    border-bottom: 2px solid;
+}
+
+.navbar .login-btn{
+    margin-right: 3.5rem;
+    font-family: 'Nova Square', sans-serif;
+    color: var(--bg-color);
+    font-size: 1.0rem;
+    padding: 10px 17px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
