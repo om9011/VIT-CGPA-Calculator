@@ -1,7 +1,6 @@
-.Landing {
+section {
     width: 100%;
     margin: 10px 0;
-    /* background-color: #457dd9; */
 }
 
 .Landing-overlay {
@@ -9,10 +8,10 @@
     background-color: #E8F1FF;
     width: 200%;
     height: 125vh;
-    transform: rotate(-6deg);
+    transform: rotate(-45deg);
     position: absolute;
-    top: -18pc;
-    left: -25pc;
+    top: -28pc;
+    left: -85pc;
     z-index: -12;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .Landing-logo h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     position: absolute;
     top: 280px;
     left: 150px;
@@ -44,7 +43,8 @@
 .Landing-logo p {
     font-size: 2em;
     position: absolute;
-    top: 450px;
+    left: 160px;
+    top: 550px;
     animation: typing 3s steps(30, end) infinite;
 }
 
@@ -59,7 +59,7 @@
 
 .outer-1 {
     position: absolute;
-    border: 2px solid #e16868;
+    border: 0.5px solid #e16868;
     width: 520px;
     height: 520px;
     border-radius: 50%;
@@ -71,7 +71,7 @@
 
 .outer-2 {
     position: absolute;
-    border: 2px solid #e16868;
+    border: 0.5px solid #e16868;
     width: 420px;
     height: 420px;
     border-radius: 50%;
@@ -84,7 +84,7 @@
 
 .outer-3 {
     position: absolute;
-    border: 2px solid #e16868;
+    border: 0.5px solid #e16868;
     width: 320px;
     height: 320px;
     border-radius: 50%;
@@ -96,7 +96,7 @@
 
 .outer-4 {
     position: absolute;
-    border: 2px solid #e16868;
+    border: 0.5px solid #e16868;
     width: 220px;
     height: 220px;
     border-radius: 50%;
@@ -119,14 +119,17 @@
 .inner-1 {
     position: absolute;
     color: whitesmoke;
-    top: 55px;
+    top: 65px;
     left: 55px;
     text-align: center;
     background-color: #23A6F0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 5px;
     border-radius: 50px;
+    font-size: 1em;
+    border: 1px solid black;
+    
 }
 
 .inner-2 {
@@ -136,10 +139,13 @@
     left: 345px;
     text-align: center;
     background-color: #23A6F0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 5px;
     border-radius: 50px;
+    font-size: 1em;
+    border: 1px solid black;
+    
 }
 
 .inner-3 {
@@ -149,23 +155,29 @@
     left: 270px;
     text-align: center;
     background-color: #23A6F0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 5px;
     border-radius: 50px;
+    font-size: 1em;
+    border: 1px solid black;
+    
 }
 
 .inner-4 {
     position: absolute;
     color: whitesmoke;
-    top: 80px;
-    left: 195px;
+    top: 90px;
+    left: 200px;
     text-align: center;
     background-color: #23A6F0;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     padding: 5px;
     border-radius: 50px;
+    font-size: 1em;
+    border: 1px solid black;
+    
 }
 
 .inner-5 {
@@ -177,7 +189,9 @@
     height: 120px;
     border-radius: 50%;
     font-size: 3.2rem;
-    padding-top: 25%;
+    padding-top: 24%;
+    border : 2px solid black;
+    letter-spacing: 3px;
 }
 
 @keyframes rotate {
@@ -188,4 +202,18 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+.landing-options {
+    background-color:white;
+    margin: 25px 0;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns in each row */
+    gap: 35px; 
 }

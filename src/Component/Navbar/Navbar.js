@@ -23,9 +23,6 @@ const Navbar = () => {
   return (
     <>
     <header className={`header ${isMenuOpen ? "menu-open" : ""}`}>
-      <div className="menu-toggle" >
-        <i className={`bx ${isMenuOpen ? "bx-x" : "bx-menu"}`} id="menu-icon"></i>
-      </div>
       <img src={logo} alt="" id="main" />
       <p className="logo" onClick={headerHandle}>CGPA<span> Master</span></p>
       <nav className={`navbar ${isMenuOpen ? "menu-open" : ""}`}>

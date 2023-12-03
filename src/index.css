@@ -15,6 +15,8 @@ body {
   outline: none;
   scroll-behavior: smooth;
   text-decoration: none;
+  
+  font-family: 'Nova Square', sans-serif;
 }
 
 :root {
